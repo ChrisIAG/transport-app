@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "map": "🗺️ Mapa",
+    "routes": "Rutas",
+    "whatRoute": "🧭 ¿Qué ruta?",
+    "compare": "↔ Comparar",
+    "history": "🕐 Historial",
+    "favorites": "❤️",
+    "openSearch": "Abrir buscador",
+    "openMenu": "Abrir menú",
+    "searchTooltip": "Buscar (Ctrl+K)"
+  },
+  "a11y": {
+    "label": "Opciones de accesibilidad",
+    "heading": "Accesibilidad",
+    "highContrast": "🔲 Alto contraste",
+    "highContrastAria": "Activar alto contraste",
+    "largeFont": "🔤 Fuente grande",
+    "largeFontAria": "Activar fuente grande",
+    "reset": "Restablecer"
+  },
+  "search": {
+    "placeholder": "Buscar ruta o parada…",
+    "noResults": "Sin resultados para \"{{query}}\"",
+    "hint": "Escribe el nombre de una ruta o parada",
+    "outbound": "Ida",
+    "inbound": "Vuelta",
+    "stops": "paradas"
+  },
+  "map": {
+    "here": "📍 Estás aquí",
+    "locateTitle": "Mi ubicación",
+    "routeBadge": "Ruta {{id}}",
+    "viewRoute": "Ver ruta →",
+    "loading": "Cargando mapa…",
+    "stopsSuffix": "paradas"
+  },
+  "mapView": {
+    "stopCounter": "Parada {{n}} de {{total}}",
+    "startBadge": "Inicio",
+    "endBadge": "Final",
+    "showBus": "Mostrar bus",
+    "hideBus": "Ocultar bus"
+  },
+  "favoriteBtn": {
+    "add": "Agregar a favoritos",
+    "remove": "Quitar de favoritos"
+  },
+  "shareBtn": {
+    "share": "Compartir ruta",
+    "copied": "Enlace copiado",
+    "fallback": "Copia este enlace:"
+  },
+  "routeCard": {
+    "routeBadge": "Ruta {{id}}",
+    "stopsIda": "paradas (ida)",
+    "viewDetails": "Ver detalles →"
+  },
+  "common": {
+    "closeAlert": "Cerrar alerta"
+  },
+  "home": {
+    "heroTitle": "Conoce todas las rutas de transporte de tu ciudad",
+    "heroSubtitle": "Consulta recorridos, paradas, horarios y tarifa de cada ruta en un mapa interactivo. Sin registros ni publicidad.",
+    "heroCta": "Ver todas las rutas →",
+    "featuresTitle": "¿Qué puedes hacer aquí?",
+    "feature1Title": "Mapa interactivo",
+    "feature1Desc": "Visualiza el trayecto completo de cada ruta sobre un mapa real de la ciudad.",
+    "feature2Title": "Paradas detalladas",
+    "feature2Desc": "Consulta todas las paradas de la ruta con sus nombres y ubicaciones exactas.",
+    "feature3Title": "Horarios y frecuencia",
+    "feature3Desc": "Conoce los horarios de operación y con qué frecuencia pasan los buses.",
+    "stat1Value": "5",
+    "stat1Label": "Rutas activas",
+    "stat2Value": "30+",
+    "stat2Label": "Paradas cubiertas",
+    "stat3Value": "100%",
+    "stat3Label": "Gratis y sin registro",
+    "ctaTitle": "¿Listo para explorar?",
+    "ctaSubtitle": "Selecciona la ruta que necesitas y planifica tu viaje al instante.",
+    "ctaButton": "Explorar rutas",
+    "donateTitle": "¿Te ha sido útil Easy Travel?",
+    "donateDesc": "Este proyecto es gratuito y sin publicidad. Si quieres apoyar su desarrollo y mantenimiento, puedes enviar una donación voluntaria a través de WhatsApp.",
+    "donateBtn": "Donar por WhatsApp",
+    "donateNote": "Cualquier aporte, por pequeño que sea, es muy valioso. ¡Gracias! 🙏",
+    "footer": "© {{year}} Easy Travel · Información de transporte público"
+  },
+  "routes": {
+    "title": "Rutas de Transporte",
+    "subtitle": "{{count}} rutas disponibles · Selecciona una para ver su mapa y detalles",
+    "searchPlaceholder": "Buscar por nombre de ruta o parada…",
+    "favFirst": "❤️ Favoritos primero",
+    "allZones": "Todas",
+    "noResults": "Sin resultados",
+    "clearFilters": "Limpiar filtros"
+  },
+  "routeDetail": {
+    "notFound": "Ruta no encontrada",
+    "notFoundMsg": "No existe una ruta con el código",
+    "backToRoutes": "← Volver a rutas",
+    "back": "← Rutas",
+    "routeBadge": "Ruta {{id}}",
+    "activeDirection": "Dirección activa",
+    "otherDirection": "Otra dirección (referencia)",
+    "schedule": "Horario",
+    "frequency": "Frecuencia",
+    "fare": "Tarifa",
+    "stops": "Paradas",
+    "stopCount": "{{count}} paradas",
+    "stopsSection": "Paradas ·",
+    "startBadge": "Inicio",
+    "endBadge": "Final",
+    "loadingMap": "Cargando mapa…",
+    "mapCredit": "Mapa ©",
+    "openStreetMap": "OpenStreetMap"
+  },
+  "mapAll": {
+    "title": "Mapa General de Rutas",
+    "subtitle": "Pasa el cursor sobre una ruta · Haz clic para ver detalles",
+    "loading": "Cargando mapa…"
+  },
+  "favorites": {
+    "title": "Mis Favoritos",
+    "noRoutes": "Aún no tienes rutas guardadas",
+    "savedCount_one": "{{count}} ruta guardada",
+    "savedCount_other": "{{count}} rutas guardadas",
+    "emptyTitle": "Ninguna ruta guardada",
+    "emptyHint": "Toca el ❤️ en cualquier ruta para guardarla aquí.",
+    "viewAll": "Ver todas las rutas"
+  },
+  "compare": {
+    "title": "Comparar Rutas",
+    "subtitle": "Selecciona dos rutas para compararlas en el mapa",
+    "routeA": "Ruta A",
+    "routeB": "Ruta B",
+    "selectRoute": "Seleccionar ruta…",
+    "mapEmpty": "Selecciona al menos una ruta para ver el mapa",
+    "selectPrefix": "Selecciona",
+    "routeBadge": "Ruta {{id}}",
+    "schedule": "Horario",
+    "frequency": "Frecuencia",
+    "fare": "Tarifa",
+    "stopsIda": "Paradas (ida)",
+    "stops": "Paradas",
+    "loadingMap": "Cargando mapa…"
+  },
+  "whatRoute": {
+    "title": "¿Qué ruta tomo?",
+    "subtitle": "Ingresa tu parada de origen y destino y te diremos qué rutas las conectan.",
+    "fromLabel": "🟢 Salgo desde",
+    "fromPlaceholder": "Selecciona la parada de origen…",
+    "toLabel": "🔴 Voy hasta",
+    "toPlaceholder": "Selecciona la parada de destino…",
+    "search": "Buscar rutas",
+    "results_one": "{{count}} ruta conecta {{origin}} con {{destination}}:",
+    "results_other": "{{count}} rutas conectan {{origin}} con {{destination}}:",
+    "viewRoute": "Ver ruta →",
+    "newSearch": "← Nueva búsqueda",
+    "noDirectRoutes": "Sin rutas directas",
+    "noDirectMsg": "Ninguna ruta cubre directamente esas paradas.",
+    "transfersTitle": "Opciones con transbordo",
+    "transfers_one": "{{count}} combinación",
+    "transfers_other": "{{count}} combinaciones",
+    "from": "Desde",
+    "to": "Hasta",
+    "viewRouteShort": "Ver →",
+    "transferAt": "Transbordo en",
+    "tryAgain": "Intentar de nuevo"
+  },
+  "history": {
+    "title": "🕐 Historial de viajes",
+    "subtitle": "Rutas que has consultado recientemente",
+    "clear": "Limpiar",
+    "confirmClear": "¿Limpiar todo el historial?",
+    "emptyTitle": "Sin historial aún",
+    "emptyMsg": "Las rutas que consultes aparecerán aquí automáticamente.",
+    "explore": "Explorar rutas →",
+    "routeBadge": "Ruta {{id}}",
+    "view": "Ver →",
+    "timeNow": "Ahora mismo",
+    "timeMin_one": "Hace {{count}} min",
+    "timeMin_other": "Hace {{count}} min",
+    "timeHour_one": "Hace {{count}} h",
+    "timeHour_other": "Hace {{count}} h",
+    "timeYesterday": "Ayer",
+    "timeDay_one": "Hace {{count}} día",
+    "timeDay_other": "Hace {{count}} días"
+  },
+  "notFound": {
+    "heading": "Página no encontrada",
+    "message": "La dirección que buscas no existe o fue eliminada. ¿Volvemos al inicio?",
+    "goHome": "Ir al inicio",
+    "viewRoutes": "Ver rutas"
+  }
+}

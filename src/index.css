@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure Leaflet tiles render correctly */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* ── Accessibility: large font ── */
+html.a11y-lg { font-size: 120%; }
+
+/* ── Accessibility: high contrast ── */
+html.a11y-hc body { filter: invert(1) hue-rotate(180deg); }
+/* Restore map tiles and images (double-invert = original colors) */
+html.a11y-hc .leaflet-container,
+html.a11y-hc img,
+html.a11y-hc video { filter: invert(1) hue-rotate(180deg); }

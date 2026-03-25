@@ -1,0 +1,16 @@
+[
+  {
+    "id": "alert-001",
+    "type": "info",
+    "message": "🔧 Ruta 03 opera con frecuencia reducida los sábados por mantenimiento de vía.",
+    "routes": ["03"],
+    "active": true
+  },
+  {
+    "id": "alert-002",
+    "type": "warning",
+    "message": "⚠️ Cambio de horario: Ruta 01 y Ruta 02 iniciarán servicio a las 06:00 el domingo 29 de marzo por feriado nacional.",
+    "routes": ["01", "02"],
+    "active": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "name": "Ruta 01 – Centro / Norte",
+    "color": "#ef4444",
+    "zone": "Norte",
+    "description": "Recorre el centro histórico de la ciudad hacia los barrios del norte, pasando por los principales puntos de interés.",
+    "schedule": "L-S 05:30 – 22:00  |  D y feriados 06:00 – 20:00",
+    "frequency": "Cada 8 min en hora pico",
+    "fare": "$0.35",
+    "directions": {
+      "ida": {
+        "label": "Ida → Norte",
+        "color": "#ef4444",
+        "stops": ["Terminal Central", "Plaza Bolívar", "Av. Libertad / Calle 5", "Hospital Universitario", "Mercado Norte", "Parque Industrial", "Urbanización Los Pinos"],
+        "waypoints": [[10.4806,-66.9036],[10.4830,-66.9010],[10.4870,-66.8985],[10.4905,-66.8960],[10.4940,-66.8930],[10.4975,-66.8900],[10.5010,-66.8870]]
+      },
+      "vuelta": {
+        "label": "Vuelta → Centro",
+        "color": "#fca5a5",
+        "stops": ["Urbanización Los Pinos", "Calle 8 / Parque Norte", "Av. Meridional", "Clínica Santa Rosa", "Calle 3 / Mercado", "Plaza Bolívar", "Terminal Central"],
+        "waypoints": [[10.5010,-66.8870],[10.4990,-66.8910],[10.4960,-66.8948],[10.4928,-66.8978],[10.4888,-66.9005],[10.4848,-66.9020],[10.4806,-66.9036]]
+      }
+    }
+  },
+  {
+    "id": "02",
+    "name": "Ruta 02 – Este / Oeste",
+    "color": "#3b82f6",
+    "zone": "Transversal",
+    "description": "Conecta los extremos este y oeste de la ciudad, pasando por el corredor comercial principal.",
+    "schedule": "L-S 05:00 – 23:00  |  D y feriados 06:00 – 21:00",
+    "frequency": "Cada 10 min en hora pico",
+    "fare": "$0.35",
+    "directions": {
+      "ida": {
+        "label": "Ida → Oeste",
+        "color": "#3b82f6",
+        "stops": ["Terminal Este", "Centro Comercial Real", "Av. Principal / Calle 10", "Plaza Cívica", "Estadio Municipal", "Av. Bolívar / Calle 20", "Terminal Oeste"],
+        "waypoints": [[10.4750,-66.8800],[10.4755,-66.8870],[10.4760,-66.8940],[10.4765,-66.9010],[10.4770,-66.9080],[10.4775,-66.9150],[10.4780,-66.9220]]
+      },
+      "vuelta": {
+        "label": "Vuelta → Este",
+        "color": "#93c5fd",
+        "stops": ["Terminal Oeste", "Av. Sucre / Calle 22", "Redoma del Centro", "Mercado Principal", "Av. Urdaneta", "Zona Industrial Este", "Terminal Este"],
+        "waypoints": [[10.4780,-66.9220],[10.4778,-66.9148],[10.4773,-66.9075],[10.4768,-66.9002],[10.4762,-66.8930],[10.4756,-66.8863],[10.4750,-66.8800]]
+      }
+    }
+  },
+  {
+    "id": "03",
+    "name": "Ruta 03 – Sur / Universidad",
+    "color": "#10b981",
+    "zone": "Sur",
+    "description": "Une los barrios del sur con la zona universitaria y el hospital central. Muy utilizada por estudiantes.",
+    "schedule": "L-V 05:30 – 22:30  |  S 06:00 – 21:00  |  D 07:00 – 19:00",
+    "frequency": "Cada 12 min",
+    "fare": "$0.35",
+    "directions": {
+      "ida": {
+        "label": "Ida → Universidad",
+        "color": "#10b981",
+        "stops": ["Terminal Sur", "Av. Universidad", "Campus Central UCV", "Facultad de Ingeniería", "Hospital Clínico", "Metro El Valle"],
+        "waypoints": [[10.4600,-66.9100],[10.4650,-66.9070],[10.4695,-66.9045],[10.4720,-66.9020],[10.4750,-66.8995],[10.4780,-66.8970]]
+      },
+      "vuelta": {
+        "label": "Vuelta → Sur",
+        "color": "#6ee7b7",
+        "stops": ["Metro El Valle", "Biblioteca Central", "Av. Las Ciencias", "Calle Los Estudiantes", "Redoma Sur", "Terminal Sur"],
+        "waypoints": [[10.4780,-66.8970],[10.4760,-66.8992],[10.4735,-66.9015],[10.4710,-66.9040],[10.4660,-66.9068],[10.4600,-66.9100]]
+      }
+    }
+  },
+  {
+    "id": "04",
+    "name": "Ruta 04 – Circular Centro",
+    "color": "#f59e0b",
+    "zone": "Centro",
+    "description": "Ruta circular que recorre el casco central de la ciudad, cubriendo museos, oficinas gubernamentales y comercios.",
+    "schedule": "L-D 06:00 – 21:00",
+    "frequency": "Cada 15 min",
+    "fare": "$0.35",
+    "directions": {
+      "ida": {
+        "label": "Ida → Sentido horario",
+        "color": "#f59e0b",
+        "stops": ["Plaza Mayor", "Palacio Municipal", "Museo de Arte", "Catedral", "Banco Central", "Parque Central", "Plaza Mayor"],
+        "waypoints": [[10.4800,-66.9050],[10.4815,-66.9040],[10.4820,-66.9020],[10.4810,-66.9000],[10.4795,-66.9005],[10.4785,-66.9025],[10.4800,-66.9050]]
+      },
+      "vuelta": {
+        "label": "Vuelta → Sentido antihorario",
+        "color": "#fcd34d",
+        "stops": ["Plaza Mayor", "Parque Central", "Banco Central", "Catedral", "Museo de Arte", "Palacio Municipal", "Plaza Mayor"],
+        "waypoints": [[10.4800,-66.9050],[10.4785,-66.9025],[10.4795,-66.9005],[10.4810,-66.9000],[10.4820,-66.9020],[10.4815,-66.9040],[10.4800,-66.9050]]
+      }
+    }
+  },
+  {
+    "id": "05",
+    "name": "Ruta 05 – Aeropuerto Exprés",
+    "color": "#8b5cf6",
+    "zone": "Aeropuerto",
+    "description": "Servicio exprés entre el aeropuerto internacional y el centro de la ciudad. Paradas mínimas y alta frecuencia.",
+    "schedule": "L-D 04:00 – 24:00",
+    "frequency": "Cada 20 min",
+    "fare": "$1.00",
+    "directions": {
+      "ida": {
+        "label": "Ida → Centro",
+        "color": "#8b5cf6",
+        "stops": ["Aeropuerto Internacional", "Hotel Marriott", "Centro de Convenciones", "Terminal Central"],
+        "waypoints": [[10.6031,-66.9911],[10.5500,-66.9600],[10.5100,-66.9300],[10.4806,-66.9036]]
+      },
+      "vuelta": {
+        "label": "Vuelta → Aeropuerto",
+        "color": "#c4b5fd",
+        "stops": ["Terminal Central", "Av. Intercomunal", "Autopista Regional", "Aeropuerto Internacional"],
+        "waypoints": [[10.4806,-66.9036],[10.5050,-66.9350],[10.5600,-66.9650],[10.6031,-66.9911]]
+      }
+    }
+  }
+]

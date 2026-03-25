@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "Home",
+    "map": "🗺️ Map",
+    "routes": "Routes",
+    "whatRoute": "🧭 Which route?",
+    "compare": "↔ Compare",
+    "history": "🕐 History",
+    "favorites": "❤️",
+    "openSearch": "Open search",
+    "openMenu": "Open menu",
+    "searchTooltip": "Search (Ctrl+K)"
+  },
+  "a11y": {
+    "label": "Accessibility options",
+    "heading": "Accessibility",
+    "highContrast": "🔲 High contrast",
+    "highContrastAria": "Enable high contrast",
+    "largeFont": "🔤 Large font",
+    "largeFontAria": "Enable large font",
+    "reset": "Reset"
+  },
+  "search": {
+    "placeholder": "Search route or stop…",
+    "noResults": "No results for \"{{query}}\"",
+    "hint": "Type a route name or stop",
+    "outbound": "Outbound",
+    "inbound": "Inbound",
+    "stops": "stops"
+  },
+  "map": {
+    "here": "📍 You are here",
+    "locateTitle": "My location",
+    "routeBadge": "Route {{id}}",
+    "viewRoute": "View route →",
+    "loading": "Loading map…",
+    "stopsSuffix": "stops"
+  },
+  "mapView": {
+    "stopCounter": "Stop {{n}} of {{total}}",
+    "startBadge": "Start",
+    "endBadge": "End",
+    "showBus": "Show bus",
+    "hideBus": "Hide bus"
+  },
+  "favoriteBtn": {
+    "add": "Add to favorites",
+    "remove": "Remove from favorites"
+  },
+  "shareBtn": {
+    "share": "Share route",
+    "copied": "Link copied",
+    "fallback": "Copy this link:"
+  },
+  "routeCard": {
+    "routeBadge": "Route {{id}}",
+    "stopsIda": "stops (outbound)",
+    "viewDetails": "View details →"
+  },
+  "common": {
+    "closeAlert": "Close alert"
+  },
+  "home": {
+    "heroTitle": "Explore all transit routes in your city",
+    "heroSubtitle": "View routes, stops, schedules and fares on an interactive map. No sign-up, no ads.",
+    "heroCta": "View all routes →",
+    "featuresTitle": "What can you do here?",
+    "feature1Title": "Interactive map",
+    "feature1Desc": "Visualize the full journey of each route on a real city map.",
+    "feature2Title": "Detailed stops",
+    "feature2Desc": "Explore all stops with their names and exact locations.",
+    "feature3Title": "Schedules & frequency",
+    "feature3Desc": "Check operating hours and how often buses run.",
+    "stat1Value": "5",
+    "stat1Label": "Active routes",
+    "stat2Value": "30+",
+    "stat2Label": "Covered stops",
+    "stat3Value": "100%",
+    "stat3Label": "Free & no sign-up",
+    "ctaTitle": "Ready to explore?",
+    "ctaSubtitle": "Select the route you need and plan your trip instantly.",
+    "ctaButton": "Explore routes",
+    "donateTitle": "Has Easy Travel been useful to you?",
+    "donateDesc": "This project is free and ad-free. If you'd like to support its development and maintenance, you can send a voluntary donation via WhatsApp.",
+    "donateBtn": "Donate via WhatsApp",
+    "donateNote": "Any contribution, no matter how small, means a lot. Thank you! 🙏",
+    "footer": "© {{year}} Easy Travel · Public transport information"
+  },
+  "routes": {
+    "title": "Transit Routes",
+    "subtitle": "{{count}} routes available · Select one to view its map and details",
+    "searchPlaceholder": "Search by route or stop name…",
+    "favFirst": "❤️ Favorites first",
+    "allZones": "All",
+    "noResults": "No results",
+    "clearFilters": "Clear filters"
+  },
+  "routeDetail": {
+    "notFound": "Route not found",
+    "notFoundMsg": "There is no route with the code",
+    "backToRoutes": "← Back to routes",
+    "back": "← Routes",
+    "routeBadge": "Route {{id}}",
+    "activeDirection": "Active direction",
+    "otherDirection": "Other direction (reference)",
+    "schedule": "Schedule",
+    "frequency": "Frequency",
+    "fare": "Fare",
+    "stops": "Stops",
+    "stopCount": "{{count}} stops",
+    "stopsSection": "Stops ·",
+    "startBadge": "Start",
+    "endBadge": "End",
+    "loadingMap": "Loading map…",
+    "mapCredit": "Map ©",
+    "openStreetMap": "OpenStreetMap"
+  },
+  "mapAll": {
+    "title": "General Routes Map",
+    "subtitle": "Hover over a route · Click to view details",
+    "loading": "Loading map…"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "noRoutes": "No saved routes yet",
+    "savedCount_one": "{{count}} saved route",
+    "savedCount_other": "{{count}} saved routes",
+    "emptyTitle": "No saved routes",
+    "emptyHint": "Tap ❤️ on any route to save it here.",
+    "viewAll": "View all routes"
+  },
+  "compare": {
+    "title": "Compare Routes",
+    "subtitle": "Select two routes to compare them on the map",
+    "routeA": "Route A",
+    "routeB": "Route B",
+    "selectRoute": "Select route…",
+    "mapEmpty": "Select at least one route to view the map",
+    "selectPrefix": "Select",
+    "routeBadge": "Route {{id}}",
+    "schedule": "Schedule",
+    "frequency": "Frequency",
+    "fare": "Fare",
+    "stopsIda": "Stops (outbound)",
+    "stops": "Stops",
+    "loadingMap": "Loading map…"
+  },
+  "whatRoute": {
+    "title": "Which route do I take?",
+    "subtitle": "Enter your origin and destination stop and we'll tell you which routes connect them.",
+    "fromLabel": "🟢 Departing from",
+    "fromPlaceholder": "Select origin stop…",
+    "toLabel": "🔴 Going to",
+    "toPlaceholder": "Select destination stop…",
+    "search": "Find routes",
+    "results_one": "{{count}} route connects {{origin}} to {{destination}}:",
+    "results_other": "{{count}} routes connect {{origin}} to {{destination}}:",
+    "viewRoute": "View route →",
+    "newSearch": "← New search",
+    "noDirectRoutes": "No direct routes",
+    "noDirectMsg": "No route covers those stops directly.",
+    "transfersTitle": "Transfer options",
+    "transfers_one": "{{count}} combination",
+    "transfers_other": "{{count}} combinations",
+    "from": "From",
+    "to": "To",
+    "viewRouteShort": "View →",
+    "transferAt": "Transfer at",
+    "tryAgain": "Try again"
+  },
+  "history": {
+    "title": "🕐 Travel history",
+    "subtitle": "Routes you've recently viewed",
+    "clear": "Clear",
+    "confirmClear": "Clear all history?",
+    "emptyTitle": "No history yet",
+    "emptyMsg": "Routes you view will appear here automatically.",
+    "explore": "Explore routes →",
+    "routeBadge": "Route {{id}}",
+    "view": "View →",
+    "timeNow": "Just now",
+    "timeMin_one": "{{count}} min ago",
+    "timeMin_other": "{{count}} min ago",
+    "timeHour_one": "{{count}} h ago",
+    "timeHour_other": "{{count}} h ago",
+    "timeYesterday": "Yesterday",
+    "timeDay_one": "{{count}} day ago",
+    "timeDay_other": "{{count}} days ago"
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "message": "The page you're looking for doesn't exist or was removed. Go back home?",
+    "goHome": "Go home",
+    "viewRoutes": "View routes"
+  }
+}

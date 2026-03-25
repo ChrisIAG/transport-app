@@ -1,0 +1,16 @@
+{
+  "name": "Easy Travel",
+  "short_name": "Easy Travel",
+  "description": "Rutas de transporte público de tu ciudad",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/bus-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
