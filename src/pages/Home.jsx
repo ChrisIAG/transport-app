@@ -106,7 +106,7 @@ export default function Home() {
             {t('home.donateDesc')}
           </p>
           <a
-            href={`https://wa.me/528681971118?text=${encodeURIComponent('Me gustaría donar al proyecto Easy Travel')}`}
+            href={`https://wa.me/528681971118?text=${encodeURIComponent('Me gustaría donar al proyecto Easy Travels MX')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 active:bg-green-700 text-white font-bold px-7 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200"

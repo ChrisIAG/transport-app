@@ -80,11 +80,11 @@
     "ctaTitle": "¿Listo para explorar?",
     "ctaSubtitle": "Selecciona la ruta que necesitas y planifica tu viaje al instante.",
     "ctaButton": "Explorar rutas",
-    "donateTitle": "¿Te ha sido útil Easy Travel?",
+    "donateTitle": "¿Te ha sido útil Easy Travels MX?",
     "donateDesc": "Este proyecto es gratuito y sin publicidad. Si quieres apoyar su desarrollo y mantenimiento, puedes enviar una donación voluntaria a través de WhatsApp.",
     "donateBtn": "Donar por WhatsApp",
     "donateNote": "Cualquier aporte, por pequeño que sea, es muy valioso. ¡Gracias! 🙏",
-    "footer": "© {{year}} Easy Travel · Información de transporte público"
+    "footer": "© {{year}} Easy Travels MX · Información de transporte público"
   },
   "routes": {
     "title": "Rutas de Transporte",

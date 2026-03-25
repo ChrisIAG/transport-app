@@ -34,7 +34,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-lg font-bold tracking-tight hover:opacity-90 transition-opacity shrink-0">
             <span className="text-2xl">🚌</span>
-            <span>Easy Travel</span>
+            <span>Easy Travels MX</span>
           </Link>
 
           {/* Desktop links */}

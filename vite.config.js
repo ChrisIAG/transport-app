@@ -10,8 +10,8 @@ export default defineConfig({
       manifestFilename: 'manifest.json',
       includeAssets: ['bus-icon.svg'],
       manifest: {
-        name: 'Easy Travel · Rutas de Transporte',
-        short_name: 'Easy Travel',
+        name: 'Easy Travels MX · Rutas de Transporte',
+        short_name: 'Easy Travels MX',
         description: 'Consulta las rutas de transporte público de tu ciudad',
         theme_color: '#2563eb',
         background_color: '#1e3a8a',

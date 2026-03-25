@@ -6,7 +6,7 @@ export default function ShareButton({ route, className = '' }) {
   const { t } = useTranslation()
 
   const url = `${window.location.origin}/rutas/${route.id}`
-  const text = `🚌 ${route.name} — Easy Travel`
+  const text = `🚌 ${route.name} — Easy Travels MX`
 
   const share = async () => {
     // Try native Web Share API first (mobile)

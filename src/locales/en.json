@@ -80,11 +80,11 @@
     "ctaTitle": "Ready to explore?",
     "ctaSubtitle": "Select the route you need and plan your trip instantly.",
     "ctaButton": "Explore routes",
-    "donateTitle": "Has Easy Travel been useful to you?",
+    "donateTitle": "Has Easy Travels MX been useful to you?",
     "donateDesc": "This project is free and ad-free. If you'd like to support its development and maintenance, you can send a voluntary donation via WhatsApp.",
     "donateBtn": "Donate via WhatsApp",
     "donateNote": "Any contribution, no matter how small, means a lot. Thank you! 🙏",
-    "footer": "© {{year}} Easy Travel · Public transport information"
+    "footer": "© {{year}} Easy Travels MX · Public transport information"
   },
   "routes": {
     "title": "Transit Routes",
