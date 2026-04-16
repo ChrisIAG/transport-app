@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "name": "Ruta 01 – Centro / Norte",
+    "name": "Ruta 01 – Seccion 16",
     "color": "#ef4444",
     "zone": "Norte",
     "description": "Recorre el centro histórico de la ciudad hacia los barrios del norte, pasando por los principales puntos de interés.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "02",
-    "name": "Ruta 02 – Este / Oeste",
+    "name": "Ruta 02 – Lomas de San Juan",
     "color": "#3b82f6",
     "zone": "Transversal",
     "description": "Conecta los extremos este y oeste de la ciudad, pasando por el corredor comercial principal.",
@@ -49,7 +49,7 @@
   },
   {
     "id": "03",
-    "name": "Ruta 03 – Sur / Universidad",
+    "name": "Ruta 03 – Camion Naranja",
     "color": "#10b981",
     "zone": "Sur",
     "description": "Une los barrios del sur con la zona universitaria y el hospital central. Muy utilizada por estudiantes.",
@@ -73,7 +73,7 @@
   },
   {
     "id": "04",
-    "name": "Ruta 04 – Circular Centro",
+    "name": "Ruta 04 – Puerto Rico",
     "color": "#f59e0b",
     "zone": "Centro",
     "description": "Ruta circular que recorre el casco central de la ciudad, cubriendo museos, oficinas gubernamentales y comercios.",
@@ -97,7 +97,7 @@
   },
   {
     "id": "05",
-    "name": "Ruta 05 – Aeropuerto Exprés",
+    "name": "Ruta 05 – Colonia Mexico",
     "color": "#8b5cf6",
     "zone": "Aeropuerto",
     "description": "Servicio exprés entre el aeropuerto internacional y el centro de la ciudad. Paradas mínimas y alta frecuencia.",
